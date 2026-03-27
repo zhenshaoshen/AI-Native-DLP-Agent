@@ -1,6 +1,7 @@
 # 🛡️ AI-Native DLP Agent 
 
-[English](#english) | [中文](#chinese)
+- [English (Default)](./docs/en/README.md)
+- [简体中文](./docs/zh/README.md)
 
 <a name="chinese"></a>
 ## 📖 项目简介
