@@ -28,3 +28,30 @@ source .venv/bin/activate  # Windows 使用 .venv\Scripts\activate
 
 # 安装依赖
 pip install -r requirements.txt
+
+
+
+
+
+
+English
+📖 Introduction
+An AI-Native Data Loss Prevention (DLP) Agent. Unlike traditional Regex-based tools, this project leverages Large Language Models (LLMs) to perform semantic-aware sensitive data identification, risk assessment, and generative redaction.
+
+✨ Key Features
+Multi-format Support: Parses PDF, Word, TXT, PPTX, and more.
+
+Semantic Detection: Moves beyond static patterns to identify business secrets and sensitive intents in context.
+
+Generative Redaction: Instead of simple masking, the AI rewrites content to be "safe" while maintaining readability.
+
+Model Agnostic: Compatible with any OpenAI-compliant API (OpenAI, DeepSeek, Local Ollama, etc.).
+
+🚀 Quick Start
+Clone: git clone ...
+
+Install: pip install -r requirements.txt
+
+Config: Rename .env.example to .env and fill in your keys.
+
+Run: streamlit run app.py
