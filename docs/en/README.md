@@ -25,7 +25,7 @@ Unlike traditional DLP tools that rely on static Regular Expressions (Regex) or 
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/your-username/AI-DLP-Agent.git](https://github.com/your-username/AI-DLP-Agent.git)
+git clone https://github.com/zhenshaoshen/AI-Native-DLP-Agent.git
 cd AI-DLP-Agent
 ```
 
