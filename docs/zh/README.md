@@ -37,8 +37,10 @@
 
 ```bash
 python -m venv .venv
+
 # 激活环境 (Windows)
 .venv\Scripts\activate
+
 # 激活环境 (macOS/Linux)
 source .venv/bin/activate
 
@@ -48,20 +50,7 @@ pip install -r requirements.txt
 
 
 
-
-## 2. 配置虚拟环境
-
-```bash
-python -m venv .venv
-# 激活环境 (Windows)
-.venv\Scripts\activate
-# 激活环境 (macOS/Linux)
-source .venv/bin/activate
-
-pip install -r requirements.txt
-```
-
-## 3. API 与环境配置
+## 2. API 与环境配置
 
 1. 将项目根目录下的 `.env.example` 重命名为 `.env`。
 2. 在 `.env` 中填写你的 API Key 和模型地址：
@@ -74,7 +63,7 @@ AI_API_URL= 你的API格式/接口类型
 AI_MODEL_NAME= 模型名称
 ```
 
-## 4. 启动 Web 界面
+## 3. 启动 Web 界面
 
 ```bash
 streamlit run app.py
