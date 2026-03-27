@@ -54,8 +54,8 @@ pip install -r requirements.txt
 
 ```bash
 AI_API_KEY=your_key_here
-AI_API_URL=[https://api.openai.com/v1/chat/completions](https://api.openai.com/v1/chat/completions)
-AI_MODEL_NAME=gpt-4o
+AI_API_URL=your_API_URL
+AI_MODEL_NAME=your_model_name
 ```
 
 ## 4. Launch the Web UI
